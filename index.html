@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Enciptador de textos</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <h1 class="titulo">Encriptador de texto</h1>
+        <h4 class="restriccion">⚠ No se aceptan mayusculas y carecteres especiales ⚠</h4>
+
+        <div class="contenedor-secundario">
+            <div class="textos">
+                <textarea id="txt-encriptar" class="texto-encriptar-desencriptar" placeholder="Ingrese su texto aquí"></textarea>
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+            
+            <div class="contenedor-resultado">
+                <textarea id="texto-resultado" class="texto-encriptar-desencriptar" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <button class="btn-copiar" >Copiar</button>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; Jose Manuel Ospina - 2024</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
